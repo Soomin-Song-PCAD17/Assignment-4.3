@@ -36,7 +36,7 @@ namespace Assignment_4._3
             Console.WriteLine($"Unit Consumed: {Consumption}kWh\n");
 
             double[] consumptionByTier = [Consumption, 0, 0, 0];
-            double[] priceByTier = [1.2, 1.5, 1.8, 2.0];
+            double[] priceByTier = [1.20, 1.50, 1.80, 2.00];
             double netAmount = 0;
 
             // divide up consumption by price tier
